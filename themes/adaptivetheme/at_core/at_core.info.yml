@@ -1,0 +1,16 @@
+name: 'AT Core'
+type: theme
+base theme: stable
+description: 'Base theme only - do not set to default. Use the AT Theme Generator to generate or clone a theme to get started.'
+alt text: 'Adaptivetheme core. The base theme for all AT sub-themes.'
+tags: 'base theme, theme generator, starter theme'
+# core: 8.x
+package: adaptivetheme
+hidden: true
+features:
+
+# Information added by Drupal.org packaging script on 2018-02-12
+version: '8.x-3.1'
+core: '8.x'
+project: 'adaptivetheme'
+datestamp: 1518479888

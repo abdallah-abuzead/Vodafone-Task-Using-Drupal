@@ -1,0 +1,23 @@
+{
+  "name": "drupal/pixture_reloaded",
+  "description": "Advanced colorable theme for Drupal.",
+  "type": "drupal-theme",
+  "homepage": "https://www.drupal.org/project/pixture_reloaded",
+  "authors": [
+    {
+      "name": "Jeff Burnz",
+      "homepage": "http://adaptivethemes.com",
+      "role": "Maintainer"
+    }
+  ],
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/pixture_reloaded",
+    "irc": "irc://irc.freenode.org/drupal-contribute",
+    "source": "http://git.drupal.org/project/pixture_reloaded.git"
+  },
+  "license": "GPL-2.0+",
+  "minimum-stability": "dev",
+  "require": {
+    "drupal/adaptivetheme": "8.*"
+  }
+}

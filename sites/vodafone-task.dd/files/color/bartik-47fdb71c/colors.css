@@ -1,0 +1,70 @@
+/* ---------- Color Module Styles ----------- */
+
+body {
+  color: #333333;
+  background: #1f1d1c;
+}
+#page,
+#main-wrapper,
+.region-primary-menu .menu-item a.is-active,
+.region-primary-menu .menu-item--active-trail a {
+  background: #eeeeee;
+}
+.tabs ul.primary li a.is-active {
+  background-color: #eeeeee;
+}
+.tabs ul.primary li.is-active a {
+  border-bottom-color: #eeeeee;
+  background-color: #eeeeee;
+}
+#header {
+  background-color: #0f2fd0;
+  background-image: -webkit-linear-gradient(top, #2b25d4 0%, #0f2fd0 100%);
+  background-image: linear-gradient(to bottom, #2b25d4 0%, #0f2fd0 100%);
+}
+a,
+.link {
+  color: #0911bc;
+}
+a:hover,
+a:focus,
+.link:hover,
+.link:focus {
+  color: #050fec;
+}
+a:active,
+.link:active {
+  color: #2e38ff;
+}
+.sidebar .block {
+  border-color: #cdcdcd;
+  background-color: #ffffff;
+}
+.site-footer {
+  background: #1f1d1c;
+}
+.region-header,
+.region-header a,
+.region-header li a.is-active,
+.region-header .site-branding__text,
+.region-header .site-branding,
+.region-header .site-branding__text a,
+.region-header .site-branding a,
+.region-secondary-menu .menu-item a,
+.region-secondary-menu .menu-item a.is-active {
+  color: #ffffff;
+}
+
+/* ---------- Color Form ----------- */
+
+[dir="rtl"] .color-form .color-palette {
+  margin-right: 20px;
+  margin-left: 0;
+}
+[dir="rtl"] .color-form .form-item label {
+  float: right;
+}
+[dir="rtl"] .color-form .color-palette .lock {
+  right: -20px;
+  left: 0;
+}

@@ -1,0 +1,13 @@
+/**
+ * Maintenance Page
+ ============================================================================ */
+
+body {
+  text-align: center;
+}
+
+.site-branding,
+.pr-main {
+  @include output-rhythm(padding, $medium 0);
+}
+
